@@ -58,11 +58,21 @@
               lng: position.coords.longitude,
             };
 
+            var image = {
+              url: 'images/eiffelMarker.png',
+              // Este marcador tiene 20 pixeless de ancho por 32 pixeles de alto.
+              size: new google.maps.Size(20, 32),
+              // El origen para esta imagen es (0, 0).
+              origin: new google.maps.Point(0, 0),
+              // El ancla para esa imagen es la base del asta bandera en (0, 32).
+              anchor: new google.maps.Point(0, 32)
+            };
+
             let propiedadesMarcador = {
               position: posicion,
               map,
               title: "Marcardor",
-              icon: 'images/eiffelMarker.png'
+              icon: image
             };
 
             const marcador = new google.maps.Marker(propiedadesMarcador);
