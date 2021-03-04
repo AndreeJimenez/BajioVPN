@@ -63,18 +63,18 @@
               lng: 2.2944813,
             };
 
+            var image = {
+              url: 'images/eiffelMarker.png',
+              // Este marcador tiene 20 pixeless de ancho por 32 pixeles de alto.
+              size: new google.maps.Size(20, 32)
+            };
+
             let propiedadesMarcador = {
               position: posicion,
               map,
               title: "Marcardor",
+              icon: image
             };
-            var pinIcon = new google.maps.MarkerImage(
-              'images/eiffelMarker.png',
-              new google.maps.Size(21, 34),
-              new google.maps.Point(0,0),
-              new google.maps.Point(10, 34),
-              new google.maps.Size(2, 4));
-            marker.setIcon(pinIcon);
 
             const marcador = new google.maps.Marker(propiedadesMarcador);
 
