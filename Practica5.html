@@ -23,7 +23,11 @@
         height: 600px;
       }
 
-      .title {font-size: 30px; text-align: center; margin: 15px 0;}
+      .title {
+        font-size: 30px;
+        text-align: center;
+        margin: 15px 0;
+      }
     </style>
   </head>
   <body>
@@ -40,7 +44,8 @@
 
     <script>
       var informacion = "<h1>Torre Eiffel</h1>";
-      informacion += "<p><strong>Descripcion:</strong>Emblemática torre de hierro forjado diseñada por Gustave Eiffel y construida en 1889, dispone de observatorio..</p>";
+      informacion +=
+        "<p><strong>Descripcion:</strong>Emblemática torre de hierro forjado diseñada por Gustave Eiffel y construida en 1889, dispone de observatorio..</p>";
 
       function iniciaMapa() {
         var propiedades = {
@@ -63,17 +68,19 @@
               lng: 2.2944813,
             };
 
-            var image = {
-              url: 'images/eiffelMarker.png',
-              // Este marcador tiene 20 pixeless de ancho por 32 pixeles de alto.
-              size: new google.maps.Size(50, 80)
-            };
+            var pinIcon = new google.maps.MarkerImage(
+              "images/eiffelMarker.png",
+              null /* size is determined at runtime */,
+              null /* origin is 0,0 */,
+              null /* anchor is bottom center of the scaled image */,
+              new google.maps.Size(42, 68)
+            );
 
             let propiedadesMarcador = {
               position: posicion,
               map,
               title: "Marcardor",
-              icon: image
+              icon: pinIcon,
             };
 
             const marcador = new google.maps.Marker(propiedadesMarcador);
