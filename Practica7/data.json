@@ -1,0 +1,22 @@
+[
+  {
+    "country": "Mexico",
+    "cases": 751
+  },
+  {
+    "country": "Australia",
+    "cases": 305
+  },
+  {
+    "country": "Venezuela",
+    "cases": 407
+  },
+  {
+    "country": "Brazil",
+    "cases": 128
+  },
+  {
+    "country": "Colombia",
+    "cases": 169
+  }
+]
