@@ -1,5 +1,5 @@
 var btnroadmap = document.getElementById("btnroadmap");
-var btnsatelite = document.getElementById("btnsatelite");
+var btnsatelite = document.getElementById("btnsatellite");
 var btnhybrid = document.getElementById("btnhybrid");
 var btnterrain = document.getElementById("btnterrain");
 
