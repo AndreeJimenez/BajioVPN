@@ -64,19 +64,19 @@ function iniciaMapa() {
     maxZoom: 10,
   });
 
-  btnroadmap.addEventListener("click", () => {
+  btnroadmap.addEventListener("click", function () {
     map.setMapTypeId("roadmap");
   });
 
-  btnsatelite.addEventListener("click", () => {
+  btnsatelite.addEventListener("click", function () {
     map.setMapTypeId("satellite");
   });
 
-  btnhybrid.addEventListener("click", () => {
+  btnhybrid.addEventListener("click", function () {
     map.setMapTypeId("hybrid");
   });
 
-  btnterrain.addEventListener("click", () => {
+  btnterrain.addEventListener("click", function () {
     map.setMapTypeId("terrain");
   });
 }
