@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9bdbd;
+}
+.row {
+  margin-bottom: 30px;
+}
+
+#map1,
+#map2,
+#map3,
+#map4,
+#map5,
+#map6 {
+  height: 350px;
+  border-radius: 10px;
+}
+#title {
+  margin: 30px 0;
+  font-size: 36px;
+  font-weight: bold;
+  color: #741f1f;;
+}
+#subtitle {
+  margin-top: 10px;
+  padding: 3px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #e4a3a3;
+  border-radius: 10px;
+}
