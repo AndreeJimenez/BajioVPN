@@ -1,10 +1,10 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyDzdaTYti80ZJXqGpgrWe06jW6HeKF1fBU",
-  authDomain: "practicas-geo-85b5d.firebaseapp.com",
-  projectId: "practicas-geo-85b5d",
-  storageBucket: "practicas-geo-85b5d.appspot.com",
-  messagingSenderId: "955513949023",
-  appId: "1:955513949023:web:5d7d94a53ac1cd4352c4ea",
+  apiKey: "AIzaSyBmZKLaf0pQ2pUNWvjtXU5DKEYc5iLDrMY",
+  authDomain: "practica1-e1b15.firebaseapp.com",
+  projectId: "practica1-e1b15",
+  storageBucket: "practica1-e1b15.appspot.com",
+  messagingSenderId: "61070507903",
+  appId: "1:61070507903:web:465cc3c7e6a6393745244a",
 };
 
 firebase.initializeApp(firebaseConfig);
